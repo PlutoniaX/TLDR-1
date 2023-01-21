@@ -7,7 +7,7 @@ if not os.path.exists("Texts"):
     os.makedirs("Texts")
 
 # Open the "YoutubeURLs.txt" file and read the URLs
-with open("YoutubeURLs.txt", "r") as file:
+with open("00.YoutubeURLs.txt", "r") as file:
     urls = file.readlines()
 
 # Iterate through the URLs
